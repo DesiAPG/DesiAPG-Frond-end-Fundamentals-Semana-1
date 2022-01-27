@@ -11,15 +11,15 @@ Las Bases de datos se definen como un conjunto de tablas y herramientas que nos 
 ## Evidencias
 #### Creando un nuevo schema para poder empezar a crear las tablas con sus respectivos datos
 
-![App Screenshot](https://lh5.googleusercontent.com/p2tUYD742_9CFA3SSUOsoMso0ofYTvTGNtn2SCZyxXRJj2Wi99QPQRlAps-oage6_EbCAaeC0BKd9Q=w888-h891-rw)
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/1.png)
 
 #### Acá creamos la tabla de usuarios, y como se puede ver la tabla tiene diferentes valores por ejemplo un id que es la primary key, fecha de nacimiento con tipo de dato DATE
 
-![App Screenshot](https://lh5.googleusercontent.com/4g7Ihw6v4flO-TD_6IBi6ApnpfMSpksB8Ze-gTLqiaonX_ej1lLt0UrknAzUkMel799z8H2Y93tYng=w888-h891)
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/2.png)
 
 #### Como se puede ver usando la manera grafica es mucho mas facil y MySQL Workbench te da el codigo para hacerlo desde la consola y te arrojará esto: 
 
-![App Screenshot](https://lh3.googleusercontent.com/YlPUq-wYWEYTUL44oXUW8BdeYdL2X4gye6xLvXqRraJecN7fDw3Jl5G5c9Gzl1STibYNY3Ge2-P7Cw=w888-h891-rw)
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/3.png)
 
 #### 
 ###
@@ -41,7 +41,7 @@ CREATE TABLE `Back-end-Fundamentals`.`users` (
 
 
 
-![App Screenshot](https://lh3.googleusercontent.com/GrM5ltmlYd9AVAhOMjofTlQBqi9oWTPg2XJS7YOkrng0kuQhJ6gRBbmHT-LzrywyagkXXqJPl8CiSQ=w888-h891)
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/4.png)
 
 
 
@@ -86,7 +86,7 @@ VALUES (value1, value2, value3, ...);
 
 Ahora voy a crear un usuario en mi tabla que creé anteriormente:
 ##### 
-![App Screenshot](https://lh3.googleusercontent.com/zt75sLm_LTNfK3_Z58gNcgWqelRV0o1oE0e2j7ofp3Nk1LaR9GckwLocVp4JExxUAQDKMhdlGCYKDg=w1782-h891)
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/5.png)
 
 
 
@@ -115,7 +115,7 @@ Para traer los datos mediante el siguiente comando ` SELECT * FROM users; ` y ef
 #### 
 
 
-![App Screenshot](https://lh3.googleusercontent.com/RDDxzrjdN2R1_Lbl3P1atqo8fRJiRWnrSLZe0wp7QyZYoKMZyaxtMWu0Fjl3SmOidcjmgLDp8fCf3g=w888-h891-rw)
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/6.png)
 
 #### Editar datos de una tabla
 ####
@@ -155,26 +155,26 @@ Acá podemos ver un simple CRUD con la tabla Compras
 
 #### Crear
 En este caso como se puede ver se crearon dos registros de compra para un mismo cliente
-![App Screenshot]()
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/7.png)
 
 #### Consultar
 
-![App Screenshot]()
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/8.png)
 
 #### Actualizar
 
-![App Screenshot]()
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/9.png)
 
 Ahora se verá asi nuestra tabla
 
-![App Screenshot]()
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/10.png)
 #### Borrar
 
-![App Screenshot]()
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/11.png)
 
 Ahora se verá así nuestra tabla
 
-![App Screenshot]()
+![App Screenshot](https://github.com/DesiAPG/DesiAPG-Frond-end-Fundamentals-Semana-1/blob/main/Apuntes-Backend/12.png)
 
 
 
