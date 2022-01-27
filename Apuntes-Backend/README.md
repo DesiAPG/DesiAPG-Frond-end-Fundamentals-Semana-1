@@ -37,7 +37,9 @@ CREATE TABLE `Back-end-Fundamentals`.`users` (
 ```
 
 ##### Le damos Apply y se creará nuestra primera tabla
-####
+#### 
+
+
 
 ![App Screenshot](https://lh3.googleusercontent.com/GrM5ltmlYd9AVAhOMjofTlQBqi9oWTPg2XJS7YOkrng0kuQhJ6gRBbmHT-LzrywyagkXXqJPl8CiSQ=w888-h891)
 
@@ -64,7 +66,7 @@ CREATE TABLE `Back-end-Fundamentals`.`users` (
 Es posible escribir la declaración `INSERT INTO` de dos maneras:
 
 - Especificando tanto los nombres de las columnas como los valores que se insertarán:
-
+#### Sintaxis
 ```sql
 INSERT INTO nombre_de_tabla (columna1, columna2, columna3, ...)
 VALUES (valor1, valor2, valor3, ...);
@@ -73,7 +75,7 @@ VALUES (valor1, valor2, valor3, ...);
 ##
 
 - Si está agregando valores para todas las columnas de la tabla, no necesita especificar los nombres de las columnas en la consulta SQL. Sin embargo, asegúrese de que el orden de los valores sea el mismo que el de las columnas de la tabla. Aquí, la sintaxis `INSERT INTO` sería la siguiente
-
+#### Sintaxis
 
 ```sql
 INSERT INTO nombre_de_tabla
@@ -101,10 +103,11 @@ Para ver esto en nuestro MySQL Workbench deberiamos seguir con el siguiente coma
 ##### La instrucción `SELECT` se utiliza para seleccionar datos de una base de datos.
 #### 
 ##### Los datos devueltos se almacenan en una tabla de resultados, llamada conjunto de resultados
-#### 
-````sql
+#### Sintaxis
+
+```sql
 SELECT * FROM nombre_de_tabla;
-````
+```
 
 ### Ejemplo 
 
@@ -114,7 +117,66 @@ Para traer los datos mediante el siguiente comando ` SELECT * FROM users; ` y ef
 
 ![App Screenshot](https://lh3.googleusercontent.com/RDDxzrjdN2R1_Lbl3P1atqo8fRJiRWnrSLZe0wp7QyZYoKMZyaxtMWu0Fjl3SmOidcjmgLDp8fCf3g=w888-h891-rw)
 
+#### Editar datos de una tabla
 ####
+
+La instrucción `UPDATE` se usa para modificar los registros existentes en una tabla
+
+#### Sintaxis
+
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+> **Nota: ¡Tenga cuidado al actualizar registros en una tabla!** Observe la existencia de la cláusula `WHERE` en la instrucción `UPDATE`. La cláusula `WHERE` especifica qué registros deben actualizarse. Si omite la cláusula `WHERE`, **¡se actualizarán todos los registros de la tabla!**
+
+
+
+
+#### 
+#### Borrar datos de una tabla 
+
+La declaración `DELETE` se usa para eliminar registros existentes en una tabla
+
+#### Sintaxis
+
+```sql
+DELETE FROM table_name WHERE condition;
+```
+> **Nota: ¡Tenga cuidado al borrar registros en una tabla!** Observe la existencia de la cláusula `WHERE` en la instrucción `DELETE`. La cláusula `WHERE` especifica qué registros deben actualizarse. Si omite la cláusula `WHERE`, **¡se borrarán TODOS los registros de la tabla!**
+
+### Ejemplo
+
+Acá podemos ver un simple CRUD con la tabla Compras
+
+#### 
+
+#### Crear
+En este caso como se puede ver se crearon dos registros de compra para un mismo cliente
+![App Screenshot]()
+
+#### Consultar
+
+![App Screenshot]()
+
+#### Actualizar
+
+![App Screenshot]()
+
+Ahora se verá asi nuestra tabla
+
+![App Screenshot]()
+#### Borrar
+
+![App Screenshot]()
+
+Ahora se verá así nuestra tabla
+
+![App Screenshot]()
+
+
 
 
 ## Referencias
